@@ -1,0 +1,22 @@
+<layer>
+  <name>INGESTION_ASIS</name>
+  <id>LayerInfoImpl-3449df8e:19873b2cf24:-7da6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-130f126f:18dc67c40c4:6e4d</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-3449df8e:198745cb4e6:1533</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3449df8e:19873b2cf24:-7da7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-08-04 08:20:36.919 UTC</dateCreated>
+  <dateModified>2026-02-17 08:53:28.380 UTC</dateModified>
+</layer>

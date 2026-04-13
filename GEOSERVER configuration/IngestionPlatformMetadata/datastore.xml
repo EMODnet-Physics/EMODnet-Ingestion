@@ -1,0 +1,20 @@
+<dataStore>
+  <id>DataStoreInfoImpl-3449df8e:19873b2cf24:-7f37</id>
+  <name>IngestionPlatformMetadata</name>
+  <description>IngestionPlatformMetadata</description>
+  <type>MongoDB</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--6befb1fc:17dd736d62b:-7fe8</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="data_store">mongodb://user:password@emodnet-prod00-shard-00-00.4tmar.mongodb.net:27017,emodnet-prod00-shard-00-01.4tmar.mongodb.net:27017,emodnet-prod00-shard-00-02.4tmar.mongodb.net:27017/IngestionPlatformMetadata?ssl=true&amp;replicaSet=atlas-odahvr-shard-0&amp;authSource=admin&amp;retryWrites=true&amp;w=majority&amp;compressors=zlib</entry>
+    <entry key="namespace">https://prod-geoserver.emodnet-physics.eu/geoserver/EMODnet</entry>
+    <entry key="schema_store">file:///geoserverData/mongodb/IngestionPlatformMetadata</entry>
+    <entry key="max_objs_schema">1</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2025-08-04 08:16:09.301 UTC</dateCreated>
+  <dateModified>2026-01-07 08:59:59.205 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>

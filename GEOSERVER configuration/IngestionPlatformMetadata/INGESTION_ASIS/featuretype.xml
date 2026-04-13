@@ -1,0 +1,102 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-3449df8e:19873b2cf24:-7da7</id>
+  <name>INGESTION_ASIS</name>
+  <nativeName>Sensors</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--6befb1fc:17dd736d62b:-7fe7</id>
+  </namespace>
+  <title>IngestionPlatformMetadata</title>
+  <keywords>
+    <string>features</string>
+    <string>Sensors</string>
+  </keywords>
+  <metadataLinks>
+    <metadataLink>
+      <type>text/xml</type>
+      <metadataType>TC211</metadataType>
+      <content>https://prod-geonetwork.emodnet-physics.eu/geonetwork/srv/eng/csw?service=CSW&amp;version=2.0.2&amp;request=GetRecordById&amp;elementsetname=full&amp;outputschema=http://www.isotc211.org/2005/gmd&amp;id=32466f33-99dc-4672-a770-72b16a3e821c</content>
+    </metadataLink>
+  </metadataLinks>
+  <dataLinks>
+    <org.geoserver.catalog.impl.DataLinkInfoImpl>
+      <type>application/json</type>
+      <content>https://prod-geoserver.emodnet-physics.eu/geoserver/EMODnet/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=EMODnet%3AINGESTION_ASIS&amp;outputFormat=application%2Fjson</content>
+    </org.geoserver.catalog.impl.DataLinkInfoImpl>
+  </dataLinks>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-90.0</miny>
+    <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="custom">
+      <map>
+        <entry>
+          <string>_timestamp</string>
+          <date>2026-02-17 08:53:28.372 UTC</date>
+        </entry>
+      </map>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>true</enabled>
+        <attribute>lastDateObservationDT</attribute>
+        <presentation>CONTINUOUS_INTERVAL</presentation>
+        <units>ISO8601</units>
+        <defaultValue>
+          <strategy>FIXED</strategy>
+          <referenceValue>1000-01-01T00:00:00.000Z/3000-01-01T00:00:02.000Z</referenceValue>
+        </defaultValue>
+        <nearestMatchEnabled>false</nearestMatchEnabled>
+        <rawNearestMatchEnabled>false</rawNearestMatchEnabled>
+        <startValue></startValue>
+        <endValue></endValue>
+      </dimensionInfo>
+    </entry>
+    <entry key="custom-derived-attributes">
+      <map/>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-3449df8e:19873b2cf24:-7f37</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

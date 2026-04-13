@@ -1,0 +1,469 @@
+{
+    "attributeDescriptors": [
+		{
+            "localName": "_id",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "org.bson.types.ObjectId"
+            },
+            "userData": {
+                "mapping": "_id"
+            }
+        },
+        {
+            "localName": "geometry",
+            "type": {
+                "binding": "org.locationtech.jts.geom.Geometry"
+            },
+            "userData": {
+                "encoding": "GeoJSON",
+                "mapping": "geometry"
+            }
+        },		
+		{
+            "localName": "lastDateObservationDT",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.util.Date"
+            },
+            "userData": {
+                "mapping": "properties.lastDateObservationDT"
+            }
+        },
+		{
+            "localName": "PLATFORMCODE",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformCode"
+            }
+        },		
+		{
+            "localName": "call_name",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformName"
+            }
+        },
+		{
+            "localName": "latitude",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.latitude"
+            }
+        },
+		{
+            "localName": "longitude",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.Double"
+            },
+            "userData": {
+                "mapping": "properties.longitude"
+            }
+        },
+		{
+            "localName": "dataFeatureType",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformType.dataFeatureType"
+            }
+        },
+		{
+            "localName": "firstDateObservation",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.geospatial.first_date_observation"
+            }
+        },
+		{
+            "localName": "lastDateObservation",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.geospatial.last_date_observation"
+            }
+        },
+		{
+            "localName": "parameters_group_longname",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.parametersInfo.parameterGroups"
+            }
+        },
+		{
+            "localName": "parameters",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.parametersInfo.parameters"
+            }
+        },
+		{
+            "localName": "parameters_P01",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.parametersInfo.parametersP01"
+            }
+        },
+		{
+            "localName": "parameterGroupsP02",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.parametersInfo.parameterGroupsP02"
+            }
+        },
+		{
+            "localName": "WMO",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.wmo"
+            }
+        },
+		{
+            "localName": "data_DOI",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformType.data_DOI"
+            }
+        },
+		{
+            "localName": "best_practices_DOI",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformType.best_practices_DOI"
+            }
+        },
+		{
+            "localName": "data_owner_longname",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.dataOwner.name"
+            }
+        },
+		{
+            "localName": "data_owner_country_code",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.dataOwner.countryCod"
+            }
+        },
+		{
+            "localName": "data_owner_country_longname",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.dataOwner.countryName"
+            }
+        },
+		{
+            "localName": "data_owner_EDMO",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.dataOwner.edmo"
+            }
+        },
+		{
+            "localName": "data_assembly_center_longname",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.dataAssemblyCenter"
+            }
+        },
+		{
+            "localName": "platform_type_longname",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformType.description"
+            }
+        },
+		{
+            "localName": "integrator_id",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.source"
+            }
+        },
+		{
+            "localName": "IntegrationDate",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.util.Date"
+            },
+            "userData": {
+                "mapping": "creationDate"
+            }
+        },
+		{
+            "localName": "ingestion",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.Integer"
+            },
+            "userData": {
+                "mapping": "properties.ingestion"
+            }
+        },
+        {
+            "localName": "official_repository",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.Integer"
+            },
+            "userData": {
+                "mapping": "properties.official_repository"
+            }
+        },
+		{
+            "localName": "lastDateObservation",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.lastDateObservation"
+            }
+        },
+		{
+            "localName": "platformTypeCode",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformType.code"
+            }
+        },
+		{
+            "localName": "trajectory",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.platformType.trajectory"
+            }
+        },			
+        {
+            "localName": "projects_code",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.projects.code"
+            }
+        },
+        {
+            "localName": "related",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.related"
+            }
+        },
+	{
+            "localName": "sensor",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.sensor"
+            }
+        },
+
+        {
+            "localName": "available_dates",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.geospatial.availableDates"
+            }
+        },
+        {
+            "localName": "depth",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.geospatial.availableDepthsCodes"
+            }
+        },
+        {
+            "localName": "seaBasinName",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.geospatial.seaBasins.seaBasinsNames"
+            }
+        },
+        {
+            "localName": "seaBasinEuropeName",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.geospatial.seaBasins.seaBasinsEuropeNames"
+            }
+        },
+        {
+            "localName": "staging",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.Integer"
+            },
+            "userData": {
+                "mapping": "properties.staging"
+            }
+        },
+	{
+            "localName": "dataLink",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "dataLink"
+            }
+        },
+	{
+            "localName": "datasetID_link",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.datasetID_link"
+            }
+        },
+	{
+            "localName": "datasetID",
+            "maxOccurs": 1,
+            "minOccurs": 0,
+            "type": {
+                "binding": "java.lang.String"
+            },
+            "userData": {
+                "mapping": "properties.datasetID"
+            }
+        }
+       		
+    ],
+    "geometryDescriptor": {
+        "crs": {
+            "properties": {
+                "name": "urn:ogc:def:crs:EPSG:4326"
+            },
+            "type": "name"
+        },
+        "localName": "geometry"
+    },
+    "typeName": "EmodnetPlatformMetadataMongo",
+    "userData": {
+        "collection": "Sensors"
+    }
+}
